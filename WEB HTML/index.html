@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicioso Dulce Pasteleria</title>
+</head>
+<body>
+    
+    <header>
+        <img src="imagen/2.png" alt="Logo_Pasteleria" width="200px" height="200px">
+     <h1>Pasteleria, Delicioso Dulce</h1>
+     <h2>Sabroso Artesanal desde 1987 </h2>
+   </header> 
+   
+
+   <nav>
+    <h2>Menú de pasteles</h2>
+    <ul>
+        <img src="imagen/frambuesa.jpg" alt="Frambuesa" width="200px" height="200px">
+        <li class="cakeType">Frambuesa............... $500.00 MXN</li>
+        <p>Es un delicioso pastel relleno de frambuesa, con detalles <br> de chocolate
+            y una cubierta de crema leche para un sabor exquisito!!.
+        </p> 
+        
+        <img src="imagen/limon.jpg" alt="Limon" width="200px" height="200px">
+        <li class="cakeType">Limón................... $450.00 MXN</li>
+        <p>Con una lluvia de ralladura de limón, te presentamos un pastel<br>
+            fino y elegante, con una textura increible rellena de chocolate. <br>
+            Animate a probarlo!!.
+        </p> 
+        
+        <img src="imagen/tresleches.jpg" alt="Tres Leches" width="200px" height="200px">
+        <li class="cakeType">Tres Leches............. $650.00 MXN</li>
+        <p>El pastel de 3 leches es un tipo de postre muy adecuado para cualquier fiesta, <br>
+            cumpleaños o celebración especial ya que se trata de una torta o tarta que queda <br>
+            muy bonita y vistosa, además de deliciosa, y que podrás decorar con cualquier guarnición <br>
+            como frutas, merengues o crema chantilly.
+            <!-- Foto de Jasmine lew: https://www.pexels.com/es-es/foto/pastel-redondo-blanco-cubierto-con-rebanada-de-fruta-amarilla-140831/ -->
+        </p> 
+        
+        <img src="imagen/Tisamisu.jpg" alt="Tiramisú" width="200px" height="200px">
+        <li class="cakeType">Tiramisú................ $520.00 MXN</li>
+        <p>El tiramisú es uno de los postres más populares del mundo. Es un plato dulce tradicional <br>
+         italiano, preparado con café, bizcocho, yemas de huevo, mascarpone y cacao.
+        </p> 
+        
+        <img src="imagen/chocolate.jpg" alt="Chocolate" width="200px" height="200px">
+        <li class="cakeType">Chocolate............... $755.00 MXN</li>
+        <p>Delicioso pastel recubierto de chocolate y fresas, con detalles<br>
+            blancos hechos para impresionar tus ojos!!.
+
+        </p> 
+    </ul>
+    <hr>
+    
+    <h2>Adicionales en su Pastel</h2>
+    <ul>
+        <li class="pastelDecoration">Crema de Cafe.............$150.00 MXN</li>
+        <li class="pastelDecoration">Chispas de Chocolate......$ 60.00 MXN</li>
+        <li class="pastelDecoration">Extra Chocolate...........$150.00 MXN</li>
+        <li class="pastelDecoration">Frambuesas Extras  .......$150.00 MXN</li>       
+    </ul>
+   </nav>
+
+      <!--Formulario de información del cliente-->
+   <!--action: define la ubicación (URL) donde se envían los datos que
+    el formulario ha recopilado cuando se validan.
+    method: define con qué método HTTP se envían los datos (get o post)-->
+    <hr>
+    <section>
+        <form action="/my-handling-form-page" method="post">
+         
+            <h3>Seleccion su sede</h3>
+            <select name="user_direction" id="direction">
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="Sur">Sur</option>
+            </select>
+
+            <!-- Menú de selección de sabor de chocolate -->
+            <h2>Seleccione uno o varios sabores de pastel</h2>
+            <input type="checkbox" id="Pasteles" name="Pasteles" value="Frambuesa">
+            <label for="Frambuesa" name="Pasteles">Frambuesa</label>
+            <br>
+            <input type="checkbox" id="Pasteles" name="Pasteles" value="Limón">
+            <label for="Limón" name="Pasteles">Limón</label>
+            <br>
+            <input type="checkbox" id="Pasteles" name="Pasteles" value="Tres Leches">
+            <label for="Tres Leches" name="Pasteles">Tres Leches</label>
+            <br>
+            <input type="checkbox" id="Pasteles" name="Pasteles" value="Tiramisú">
+            <label for="Tiramisú" name="Pasteles">Tiramisú</label>
+            <br>
+            <input type="checkbox" id="Pasteles" name="Pasteles" value="Chocolate">
+            <label for="Chocolate" name="Pasteles">Chocolate</label>
+            
+            
+             <!-- Menú de selección de adornos-->
+            <h2>Eliga su adorno preferido para su pastel</h2>
+            <input type="checkbox" name="Decoration" id="Decoration" value="CremaCafe">
+            <label for="CremaCafe">Crema de cafe</label>
+             <br>
+            <input type="checkbox" name="Decoration" id="Decoration" value="ChispasChocolate">
+            <label for="ChispasChocolate">Chispas de Chocolate</label>
+             <br>
+            <input type="checkbox" name="Decoration" id="Decoration" value="ExtraChocolate">
+            <label for="ExtraChocolate">Extra Chocolate</label>
+             <br>
+            <input type="checkbox" name="Decoration" id="Decoration" value="FrambuesaExtra">
+            <label for="FrambuesaExtra">Frambuesas Extras</label>
+             
+            
+            <!--Boton de envio de informacion (Button)-->
+            <li class="button">
+                <button type="submit">Enviar informacion</button>
+            </li>
+
+            <!--Datos personales--> 
+            <h2>Llene su pedido</h2>
+            <ul>
+                <li>
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" name="user_name" id="name">
+                </li>
+                <li>
+                    <label for="num">Numero Celular:</label><br>
+                    <input type="number" name="user_number" id="num">
+                </li>
+                <li>
+                    <label for="mail">Correo Electrónico</label><br>
+                    <input type="email" name="user_mail" id="mail">
+                </li>
+                <li>
+                    <label for="msg">Descripción del pastel:</label> <br>
+                    <textarea id="msg" name="user_message" cols="30" rows="10"></textarea>
+                </li>
+            </ul>
+  
+        </form>
+    </section>
+   
+    
+    <footer>
+        <h2>Contacto</h2>
+            <table>
+                <tr>
+                    <th> Dirección </th>
+                    <th> Teléfono </th>
+                    <th> Horarios de atención </th>
+                </tr>
+                
+            </table>
+        </footer>
+    
+</body>
+</html>
+
