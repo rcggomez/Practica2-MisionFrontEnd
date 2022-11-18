@@ -3,7 +3,7 @@ HTML-CSS
 
 Caso: Pastelería
 
-[logo]: https://github.com/rcggomez/Practica2-MisionFrontEnd/blob/main/2.png 
+https://github.com/rcggomez/Practica2-MisionFrontEnd/blob/main/2.png 
 Descripción:
 
 *	El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.
