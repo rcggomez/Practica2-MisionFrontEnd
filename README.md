@@ -5,7 +5,7 @@ Caso: Pastelería
 
 ![alt text](https://github.com/rcggomez/Practica2-MisionFrontEnd/blob/main/2.png?raw=true) 
 
-Descripción:
+## Descripción:
 
 *	El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.
 *	El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno.
@@ -17,3 +17,18 @@ Descripción:
 *	El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
 *	El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
 *	La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
+
+## Actividades:
+
+*	Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca:
+*	Maquetación de páginas de cliente de la pastelería:
+*	Maquetación de páginas del pastelero:
+* WEB HTML:
+* WEB HTML / CSS:
+* Despliegue WEB:
+
+## Herramientas Utilizadas:
+
+* Logos & Marketing: https://www.canva.com/
+* Maquetacion y Flujos de Navegación: https://miro.com/
+* Visual Studio Code
