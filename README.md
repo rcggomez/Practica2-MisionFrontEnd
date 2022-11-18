@@ -4,6 +4,7 @@ HTML-CSS
 Caso: Pastelería
 
 ![alt text](https://github.com/rcggomez/Practica2-MisionFrontEnd/blob/main/2.png?raw=true) 
+
 Descripción:
 
 *	El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.
